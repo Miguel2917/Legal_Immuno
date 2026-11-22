@@ -21,20 +21,17 @@ Se publican con GitHub Pages mediante GitHub Actions (`.github/workflows/pages.y
 
 ## Marcadores que hay que completar
 
-Están resaltados en amarillo en las páginas (clase `ph`). Buscar `class="ph"` para encontrarlos todos.
+Ninguno. Si se añade otro, se marca con la clase `ph` (resaltado en amarillo) y se apunta aquí.
 
-| Marcador | Dónde | Qué poner |
-| :--- | :--- | :--- |
-| `[NOMBRE LEGAL DEL RESPONSABLE]` | `index.html` (§1 y §15), `terms.html` (§17) | Nombre de la persona o razón social detrás de DonP |
-| `[PERSONA NATURAL O EMPRESA]` | `index.html` §15, `terms.html` §17 | Tipo de titular |
-| `[DIRECCIÓN POSTAL]` | `index.html` §15, `terms.html` §17 | Domicilio (Japón exige dirección del vendedor o darla a quien la pida) |
-| `[TELÉFONO, O "SE FACILITA SIN DEMORA A QUIEN LO PIDA POR CORREO"]` | `terms.html` §17 | Teléfono o esa frase |
-| `[CORREO DE CONTACTO]` | las cuatro páginas | Correo de soporte y privacidad |
-| `[PAÍS/LEY APLICABLE]` | `terms.html` §16 | País cuya ley rige los términos |
-| `[REGIÓN DE LOS SERVIDORES DE UNITY GAMING SERVICES]` | `index.html` §11 | Región del proyecto de Unity Cloud (p. ej. "Estados Unidos") |
-| `[OPCIONAL: ... cuentas sin actividad ...]` | `index.html` §12 | Plazo de borrado por inactividad, o quitar la frase |
-| `[PLAZO DE RESPUESTA, P. EJ. 30 DÍAS]` | `delete-account.html` §2 | Plazo para responder peticiones por correo |
-| `[PLAZO DE CONSERVACIÓN EN COPIAS DE SEGURIDAD DE UNITY]` | `delete-account.html` §4 | Lo que diga Unity, o quitar la frase |
+Resueltos el 22/11/2026 (tarde), con lo que publica Unity:
+- Región (`index.html` §11): "Estados Unidos y otros países donde Unity tiene servidores". Unity no deja elegir la
+  región y su artículo de soporte no detalla Authentication, Cloud Save, Cloud Code ni Leaderboards.
+- Inactividad (`index.html` §12): frase quitada; el juego no borra cuentas inactivas.
+- Copias de Unity (`delete-account.html` §4): registros técnicos hasta 30 días (privacidad de Cloud Code); para las
+  copias internas, "el tiempo limitado que fija su política", porque Unity no publica el plazo.
+
+Resueltos el 22/11/2026: titular, tipo de titular, domicilio, teléfono, correo (en las cuatro páginas), ley aplicable
+(Ecuador) y plazo de respuesta (10 días hábiles; la LOPDP de Ecuador fija un máximo de 15 días).
 
 Cuando estén todos puestos, quitar también el estilo `.ph` si se quiere (o dejarlo: sin marcadores no se usa).
 
