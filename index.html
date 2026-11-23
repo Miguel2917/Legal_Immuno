@@ -109,14 +109,6 @@
       margin-bottom: 0;
     }
 
-    .ph {
-      background: color-mix(in srgb, #ffc93c 35%, transparent);
-      color: inherit;
-      border-radius: 4px;
-      padding: 0 4px;
-      font-weight: 600;
-    }
-
     .table-wrap {
       overflow-x: auto;
       margin: 16px 0;
@@ -162,7 +154,7 @@
 <body>
   <main>
     <h1>Política de Privacidad de Immuno Frontline</h1>
-    <p class="meta">Última actualización: 22 de noviembre de 2026</p>
+    <p class="meta">Última actualización: 23 de noviembre de 2026</p>
 
     <p>Esta política explica qué información utiliza <strong>Immuno Frontline</strong> (el "Juego"), un juego educativo
       de defensa de torres sobre el sistema inmunitario para Android, publicado por <strong>DonP</strong> (en adelante,
@@ -204,16 +196,20 @@
       <li>datos de salud. El Juego habla del cuerpo humano con fines educativos, pero no te pregunta nada sobre tu
         salud.</li>
     </ul>
-    <p>El único permiso de Android que pide el Juego es el acceso a internet, necesario para la copia en la nube, el
-      ranking, los anuncios y las compras.</p>
+    <p>El Juego no pide permisos sensibles de Android (como ubicación, cámara, micrófono, contactos ni archivos): solo
+      usa permisos técnicos de red (acceso a internet y estado de la red) y, a través del SDK de Google AdMob, el
+      permiso del identificador de publicidad (<code>AD_ID</code>), usado para mostrar anuncios y prevenir fraudes (con
+      las restricciones para menores descritas en la sección 6).</p>
 
     <h2>3. Datos que se guardan en tu teléfono</h2>
     <p>Para funcionar, el Juego guarda en tu dispositivo:</p>
     <ul>
       <li><strong>Progreso:</strong> niveles desbloqueados, estrellas, ADN (la moneda gratuita del Juego), mejoras del
         Laboratorio, rangos de habilidades, botiquín, equipo de torres elegido en cada nivel, torres maestras, torres
-        premium compradas, logros, récord del modo infinito y tarjetas de novedades ya vistas.</li>
-      <li><strong>Ajustes:</strong> idioma, volumen de música y efectos, y tu elección de privacidad para los anuncios.
+        premium compradas, logros, récord del modo infinito, escenas, cómics y tarjetas de novedades ya vistas y el
+        temporizador de turnos del Laboratorio.</li>
+      <li><strong>Ajustes:</strong> idioma, volumen de música y efectos, accesibilidad (modo daltónico, tamaño de texto,
+        menos movimiento), fluidez (30 o 60 FPS) y tu elección de privacidad para los anuncios.
       </li>
       <li><strong>Año de nacimiento</strong> (o "Prefiero no decirlo"), ver la sección 4.</li>
       <li><strong>Apodo del ranking</strong>, guardado como un código (por ejemplo, <code>N2_5_427</code>) y no como
@@ -237,10 +233,13 @@
     <ul>
       <li>qué tipo de anuncios se pueden mostrar (sección 6);</li>
       <li>si se puede ofrecer Google Play Juegos, que solo está disponible para mayores de 18 años (sección 8); y</li>
-      <li>si se muestran enlaces a otras apps del desarrollador, que solo ven los adultos.</li>
+      <li>si se muestran enlaces a otras apps del desarrollador en Google Play, que solo ven los adultos (el enlace incluye
+        solo una etiqueta de origen para saber que la visita proviene del Juego, sin datos personales).</li>
     </ul>
-    <p>Quien elige "Prefiero no decirlo" recibe el mismo trato que un menor. El año de nacimiento viaja con la copia de
-      tu progreso (sección 5) para que el trato sea el mismo si cambias de teléfono.</p>
+    <p>Quien elige "Prefiero no decirlo" recibe el mismo trato que un menor. Como solo pedimos el año y no el día ni el
+      mes, quien cumple 18 durante el año en curso sigue recibiendo trato de menor hasta el año siguiente, por precaución.
+      El año de nacimiento viaja con la copia de tu progreso (sección 5) para que el trato sea el mismo si cambias de
+      teléfono.</p>
 
     <h2>5. Datos que se envían al servidor del Juego</h2>
     <p>Cuando hay conexión, el Juego usa <strong>Unity Gaming Services</strong> (de Unity Technologies) como servidor.
@@ -261,7 +260,7 @@
           <td>Recuperar tu partida si cambias de teléfono o reinstalas el Juego.</td>
         </tr>
         <tr>
-          <td>Resultado de cada nivel (nivel, dificultad, oleadas, estrellas, duración, ADN pedido y hora)</td>
+          <td>Resultado de cada nivel (nivel, dificultad, oleadas, homeostasis final, estrellas, duración, ADN pedido y hora)</td>
           <td>Comprobar que el resultado es posible y evitar trampas.</td>
         </tr>
         <tr>
@@ -293,7 +292,7 @@
       </li>
       <li>Si escribes el código en otro teléfono, ese teléfono pasa a usar la cuenta del código y se queda la partida
         con más avance (la del teléfono o la de la nube).</li>
-      <li>Si el teléfono donde escribes el código no tenía progreso, su cuenta anónima vacía se borra en ese momento.
+      <li>Si el teléfono donde escribes el código no tenía progreso ni otro código previo, su cuenta anónima vacía se borra en ese momento.
         Si tenía progreso, esa cuenta anterior queda sin usar en el servidor, con su copia y sus puntuaciones. Puedes
         pedirnos que la borremos escribiendo al correo de la <a href="#contacto">sección 15</a>.</li>
       <li>Si eliges <strong>Eliminar mi cuenta y datos</strong>, se borran también ese usuario y esa contraseña, y el
@@ -313,7 +312,7 @@
     <p>Antes de cargar ningún anuncio, el Juego muestra el formulario de consentimiento de Google (User Messaging
       Platform) cuando la ley de tu país lo exige. Los anuncios solo se personalizan si eres mayor de edad y lo aceptas.
       Puedes cambiar tu elección en cualquier momento en <strong>Ajustes → Privacidad y legal → Consentimiento de
-        privacidad</strong>.</p>
+        privacidad</strong> (o en <strong>Opciones de anuncios</strong>).</p>
     <h3>6.3 Qué procesa AdMob</h3>
     <p>Para mostrar y medir los anuncios y evitar fraudes, AdMob puede procesar el identificador de publicidad del
       dispositivo, la dirección IP, información técnica del dispositivo y del sistema, datos básicos del Juego e
@@ -324,13 +323,16 @@
       (Ajustes → Google → Anuncios).</p>
 
     <h2>7. Compras dentro de la app (Google Play)</h2>
-    <p>El Juego ofrece cuatro <strong>torres premium</strong>, cada una con un pago único y permanente y con el precio
-      visible antes de pagar. No hay suscripciones, monedas de pago, cajas de botín ni premios al azar. Las compras las
-      procesa <strong>Google Play</strong>: nosotros no recibimos ni guardamos el número de tu tarjeta ni tus datos
+    <p>El Juego ofrece compras opcionales dentro de la app: cuatro <strong>torres premium</strong> (cada una con pago
+      único y permanente) y un paquete consumible de ayudas para el botiquín (<strong>Pack clínico</strong>, con
+      contenido fijo y exacto; sus ayudas también se consiguen gratis jugando). El precio final se muestra siempre antes
+      de pagar. No hay suscripciones, monedas virtuales de pago, cajas de botín ni premios al azar de pago. Las compras
+      las procesa <strong>Google Play</strong>: nosotros no recibimos ni guardamos el número de tu tarjeta ni tus datos
       bancarios. Recibimos de Google la confirmación de la compra (producto, identificador y estado de la compra) para
-      desbloquear la torre y para restaurarla con el botón <strong>Restaurar compras</strong>. Más información: <a
-        href="https://policies.google.com/privacy?hl=es" target="_blank" rel="noopener">política de privacidad de
-        Google</a>.</p>
+      entregar la torre o el paquete comprado y, en el caso de las torres premium permanentes, para restaurarlas con el
+      botón <strong>Restaurar compras</strong> (las compras consumibles no se restauran una vez usadas o borradas). Más
+      información: <a href="https://policies.google.com/privacy?hl=es" target="_blank" rel="noopener">política de
+        privacidad de Google</a>.</p>
 
     <h2>8. Google Play Juegos (solo mayores de 18)</h2>
     <p>Si la pantalla de edad indica con seguridad que eres mayor de 18 años, el Juego te ofrece conectarte a
@@ -340,7 +342,7 @@
     <ul>
       <li>los logros que consigas se marcan también en tu perfil de Google Play Juegos; y</li>
       <li>la copia de tu progreso se guarda en "Partidas guardadas" de tu cuenta de Google, en lugar de en el servidor
-        del Juego.</li>
+        del Juego (el servidor del Juego se sigue usando para el ranking del modo infinito y la validación de resultados).</li>
     </ul>
     <p>Google trata esos datos con su perfil de jugador y su propia política de privacidad. El Juego no lee tu correo ni
       tus contactos de Google.</p>
@@ -390,9 +392,10 @@
       como exija la ley.</p>
 
     <h2 id="derechos">14. Tus derechos y cómo ejercerlos</h2>
-    <p>Según la ley de tu país (por ejemplo, la Ley Orgánica de Protección de Datos Personales de Ecuador, la LGPD de
-      Brasil, la LFPDPPP de México, la COPPA de Estados Unidos o la ley de datos de tu país), puedes pedir acceso, rectificación, eliminación, portabilidad u oposición al uso de tus
-      datos, y retirar tu consentimiento. La forma más rápida:</p>
+    <p>Según la ley de tu país (por ejemplo, la Ley Orgánica de Protección de Datos Personales de Ecuador, el RGPD de la
+      Unión Europea y del Reino Unido, la LGPD de Brasil, la LFPDPPP de México, la COPPA de Estados Unidos, la
+      CCPA/CPRA de California o la ley de datos de tu país), puedes pedir acceso, rectificación, eliminación,
+      portabilidad u oposición al uso de tus datos, y retirar tu consentimiento. La forma más rápida:</p>
     <ul>
       <li><strong>Borrar la cuenta y los datos (del servidor y del teléfono):</strong> en el Juego, <strong>Ajustes →
           Privacidad y legal → Eliminar mi cuenta y datos</strong>, o siguiendo los pasos de la <a
@@ -419,7 +422,8 @@
         automatizadas. El Juego no toma decisiones automatizadas sobre ti ni crea perfiles. Ejercer estos derechos es
         gratis.</li>
       <li><strong>Plazo:</strong> la ley fija 15 días para atender las peticiones de acceso, rectificación,
-        eliminación y oposición. Responderemos en un máximo de 10 días hábiles desde que recibamos tu petición completa.
+        eliminación y oposición. Responderemos en un máximo de 10 días hábiles (y siempre dentro del plazo legal de 15
+        días) desde que recibamos tu petición completa.
         Si necesitamos que la aclares (por ejemplo, para encontrar tu cuenta anónima), te lo pediremos una sola vez.</li>
       <li><strong>Reclamar:</strong> si no te respondemos a tiempo o no estás de acuerdo con la respuesta, puedes
         presentar un reclamo ante la <a href="https://www.gob.ec/spdp/tramites/atencion-denuncias-incumplimiento-lopdp"
@@ -430,8 +434,21 @@
       <li><strong>Datos fuera de Ecuador:</strong> ver la sección 11.</li>
     </ul>
 
-    <h2>15. Contacto</h2>
-    <p id="contacto">Immuno Frontline es ofrecido por:</p>
+    <h3 id="base-legal">14.2 Base legal del tratamiento</h3>
+    <p>Tratamos los datos descritos en esta política sobre las siguientes bases legales:</p>
+    <ul>
+      <li><strong>Ejecución del servicio que solicitas:</strong> cuenta anónima, guardado del progreso en la nube,
+        código de recuperación, ranking del modo infinito, validación de resultados y entrega o restauración de compras.</li>
+      <li><strong>Consentimiento:</strong> anuncios personalizados para mayores de edad (gestionado con Google UMP y
+        revocable en cualquier momento) y conexión opcional a Google Play Juegos para mayores de 18 años.</li>
+      <li><strong>Interés legítimo:</strong> seguridad del servidor, prevención de trampas y prevención de fraude
+        técnico.</li>
+      <li><strong>Cumplimiento de obligaciones legales:</strong> protección reforzada de menores (pantalla de edad
+        neutra) y atención de tus solicitudes de derechos.</li>
+    </ul>
+
+    <h2 id="contacto">15. Contacto</h2>
+    <p>Immuno Frontline es ofrecido por:</p>
     <ul>
       <li><strong>Nombre comercial:</strong> DonP.</li>
       <li><strong>Titular:</strong> Miguel Ángel Puertas Vélez (persona natural).</li>
