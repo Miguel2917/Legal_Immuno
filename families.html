@@ -4,97 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aviso para familias — Immuno Frontline</title>
-<style>
-  :root {
-    --bg: #fffaf0;
-    --ink: #1f1530;
-    --ink-dim: #5b5470;
-    --rule: #e8dcc4;
-    --accent: #0a6c86;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #141120;
-      --ink: #f1ebdf;
-      --ink-dim: #aaa2bd;
-      --rule: #34304a;
-      --accent: #6ed3f0;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--ink);
-    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
-    line-height: 1.65;
-  }
-  main {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 56px 24px 96px;
-  }
-  h1 {
-    font-size: 28px;
-    margin: 0 0 6px;
-    line-height: 1.2;
-  }
-  .meta {
-    color: var(--ink-dim);
-    font-size: 14px;
-    margin: 0 0 40px;
-  }
-  h2 {
-    font-size: 18px;
-    margin: 40px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 1px solid var(--rule);
-  }
-  h3 {
-    font-size: 15px;
-    margin: 24px 0 8px;
-  }
-  p, li { font-size: 15.5px; color: var(--ink); }
-  ul { padding-left: 22px; }
-  li { margin-bottom: 8px; }
-  a { color: var(--accent); }
-  .box {
-    background: color-mix(in srgb, var(--accent) 8%, transparent);
-    border: 1px solid color-mix(in srgb, var(--accent) 25%, transparent);
-    border-radius: 12px;
-    padding: 16px 20px;
-    margin: 24px 0;
-    font-size: 14.5px;
-    color: var(--ink-dim);
-  }
-  .box p, .box li { font-size: 14.5px; color: var(--ink-dim); }
-  .box p:first-child { margin-top: 0; }
-  .box p:last-child, .box ul:last-child { margin-bottom: 0; }
-  .table-wrap { overflow-x: auto; margin: 16px 0; }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 14.5px;
-  }
-  th, td {
-    text-align: left;
-    padding: 10px 12px;
-    border-bottom: 1px solid var(--rule);
-    vertical-align: top;
-  }
-  th { color: var(--ink-dim); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.03em; }
-  footer {
-    margin-top: 56px;
-    padding-top: 20px;
-    border-top: 1px solid var(--rule);
-    color: var(--ink-dim);
-    font-size: 13px;
-  }
-  footer a { color: var(--ink-dim); text-decoration: underline; }
-</style>
+<link rel="stylesheet" href="legal.css">
 </head>
 <body>
 <main>
+  <nav id="lang-bar" class="lang-bar" aria-label="Idioma"></nav>
+  <div id="doc-content">
   <h1>Aviso para familias</h1>
   <p class="meta">Immuno Frontline · Última actualización: 23 de noviembre de 2026</p>
 
@@ -144,7 +59,10 @@
   </ul>
 
   <footer>Immuno Frontline — Aviso para familias · Ver también: <a href="index.html">Política de Privacidad</a> · <a href="terms.html">Términos y Condiciones</a> · <a href="delete-account.html">Eliminar cuenta y datos</a></footer>
+  </div>
 </main>
+<script src="i18n/families.js"></script>
+<script src="legal-i18n.js"></script>
 </body>
 </html>
 
