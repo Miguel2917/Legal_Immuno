@@ -29,3 +29,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Asistentes de IA y temporales de Office/editores
+.claude/
+.cursor/
+~$*
+*.tmp
+*.bak
+
+# Las páginas SÍ se publican completas: *.html, legal.css, legal-i18n.js, i18n/*.js y .github/workflows/
