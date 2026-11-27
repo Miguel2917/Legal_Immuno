@@ -3,7 +3,7 @@ window.LEGAL_I18N = {
     title: "Notice for Families — Immuno Frontline",
     html: `
   <h1>Notice for Families</h1>
-  <p class="meta">Immuno Frontline · Last updated: November 23, 2026</p>
+  <p class="meta">Immuno Frontline · Last updated: November 26, 2026</p>
 
   <p>Immuno Frontline is an educational game about the immune system, and we know children and teenagers play it. This page explains in plain language to parents, guardians, and teachers how we designed the Game to be safe for them. The full explanation is in the <a href="index.html">Privacy Policy</a>.</p>
 
@@ -22,6 +22,8 @@ window.LEGAL_I18N = {
   <h2>1. The age screen</h2>
   <p>The first time the Game opens, it asks for the birth year, with a "Prefer not to say" option. It does not suggest any answer and cannot be changed later in Settings, so a minor cannot simply change it to appear older. If someone chooses "Prefer not to say", the Game treats them as a minor. That answer is used solely to choose the type of ads and available services; it is not used for anything else.</p>
   <p>If the wrong year was entered during setup, write to us (section 7) or use <strong>Settings → Privacy &amp; Legal → Delete my account and data</strong> (see the <a href="delete-account.html">deletion page</a>): the Game will reset from scratch and ask for the birth year again (if Android automatic backup is enabled, you can also clear the Game's data in Android Settings).</p>
+
+  <p>On Android the Game also reads the <strong>Google Play age signal</strong> (mandatory in California and Brazil from January 2027, and in other U.S. states). If Google Play indicates the user is a minor, or has an account supervised with Family Link, the Game treats them as a minor even if the birth year says otherwise. Purchases from a supervised account wait for parental approval in Google Play: the Game shows "Purchase on hold" and only delivers it once approved. The signal stays on the phone and is not used for anything else.</p>
 
   <h2>2. What data is stored for a minor</h2>
   <p>Only what is necessary for the Game to work: an anonymous identifier and game progress (levels, stars, upgrades, achievements, settings, language, and birth year). It is stored on the phone and, when online, a backup copy is kept on the Game server (Unity Gaming Services) so progress is not lost when changing phones. It is not used for advertising, is not sold, and is not shared to build profiles.</p>
@@ -58,7 +60,7 @@ window.LEGAL_I18N = {
     title: "Aviso para famílias — Immuno Frontline",
     html: `
   <h1>Aviso para famílias</h1>
-  <p class="meta">Immuno Frontline · Última atualização: 23 de novembro de 2026</p>
+  <p class="meta">Immuno Frontline · Última atualização: 26 de novembro de 2026</p>
 
   <p>Immuno Frontline é um jogo educativo sobre o sistema imunológico e sabemos que crianças e adolescentes o jogam. Esta página explica a pais, mães, responsáveis e professores, em linguagem simples, como projetamos o Jogo para ser seguro para eles. A explicação completa está na <a href="index.html">Política de Privacidade</a>.</p>
 
@@ -77,6 +79,8 @@ window.LEGAL_I18N = {
   <h2>1. A tela de idade</h2>
   <p>Na primeira vez que o Jogo abre, ele pergunta o ano de nascimento, com a opção "Prefiro não dizer". Não sugere nenhuma resposta e não pode ser alterado depois em Ajustes, para que um menor não consiga "se passar por maior". Se alguém escolher "Prefiro não dizer", o Jogo trata a pessoa como menor. Essa resposta serve apenas para definir o tipo de anúncios e os serviços disponíveis; não é usada para nada mais.</p>
   <p>Se um ano errado foi informado na configuração, escreva para nós (seção 7) ou use <strong>Ajustes → Privacidade e legal → Excluir minha conta e dados</strong> (veja a <a href="delete-account.html">página de exclusão</a>): o Jogo será reiniciado do zero e perguntará o ano de nascimento novamente (se o backup automático do Android estiver ativado, você também pode limpar os dados do Jogo nas configurações do Android).</p>
+
+  <p>No Android o Jogo também lê o <strong>sinal de idade do Google Play</strong> (obrigatório na Califórnia e no Brasil a partir de janeiro de 2027, e em outros estados dos EUA). Se o Google Play indicar que o usuário é menor, ou tem uma conta supervisionada pelo Family Link, o Jogo o trata como menor mesmo que o ano diga outra coisa. As compras de uma conta supervisionada aguardam a aprovação dos pais no Google Play: o Jogo avisa "Compra em espera" e só a entrega se for aprovada. O sinal fica no telefone e não é usado para mais nada.</p>
 
   <h2>2. Quais dados são guardados de um menor</h2>
   <p>Apenas os necessários para o Jogo funcionar: um identificador anônimo e o progresso da partida (fases, estrelas, melhorias, conquistas, ajustes, idioma e ano de nascimento). Eles ficam no telefone e, com conexão, uma cópia no servidor do Jogo (Unity Gaming Services) para não perder o progresso ao trocar de aparelho. Não são usados para publicidade, não são vendidos e não são compartilhados para criar perfis.</p>
@@ -113,7 +117,7 @@ window.LEGAL_I18N = {
     title: "Avis aux familles — Immuno Frontline",
     html: `
   <h1>Avis aux familles</h1>
-  <p class="meta">Immuno Frontline · Dernière mise à jour : 23 novembre 2026</p>
+  <p class="meta">Immuno Frontline · Dernière mise à jour : 26 novembre 2026</p>
 
   <p>Immuno Frontline est un jeu éducatif sur le système immunitaire et nous savons que des enfants et des adolescents y jouent. Cette page explique simplement aux parents, tuteurs et enseignants comment nous avons conçu le Jeu pour qu'il soit sûr pour eux. L'explication complète figure dans la <a href="index.html">Politique de confidentialité</a>.</p>
 
@@ -132,6 +136,8 @@ window.LEGAL_I18N = {
   <h2>1. L'écran d'âge</h2>
   <p>À la première ouverture, le Jeu demande l'année de naissance, avec l'option « Je préfère ne pas le dire ». Il ne suggère aucune réponse et ne peut pas être modifié ensuite dans les Paramètres, afin qu'un mineur ne puisse pas se déclarer majeur. Si une personne choisit « Je préfère ne pas le dire », le Jeu la traite comme mineure. Cette réponse sert uniquement à choisir le type de publicités et les services disponibles ; elle n'est utilisée à aucune autre fin.</p>
   <p>Si une mauvaise année a été indiquée lors de la configuration, écrivez-nous (section 7) ou utilisez <strong>Paramètres → Confidentialité et mentions légales → Supprimer mon compte et mes données</strong> (voir la <a href="delete-account.html">page de suppression</a>) : le Jeu repartira de zéro et redemandera l'année de naissance (si la sauvegarde automatique Android est activée, vous pouvez aussi effacer les données du Jeu dans les paramètres d'Android).</p>
+
+  <p>Sur Android, le Jeu lit aussi le <strong>signal d'âge de Google Play</strong> (obligatoire en Californie et au Brésil à partir de janvier 2027, et dans d'autres États américains). Si Google Play indique que l'utilisateur est mineur, ou qu'il a un compte supervisé avec Family Link, le Jeu le traite comme un mineur même si l'année indique autre chose. Les achats d'un compte supervisé attendent l'accord des parents dans Google Play : le Jeu affiche « Achat en attente » et ne le livre qu'une fois approuvé. Le signal reste sur le téléphone et ne sert à rien d'autre.</p>
 
   <h2>2. Données enregistrées pour un mineur</h2>
   <p>Uniquement ce qui est nécessaire au fonctionnement du Jeu : un identifiant anonyme et la progression de la partie (niveaux, étoiles, améliorations, succès, paramètres, langue et année de naissance). Ces données sont enregistrées sur le téléphone et, lorsqu'une connexion est disponible, copiées sur le serveur du Jeu (Unity Gaming Services) pour éviter toute perte en cas de changement d'appareil. Elles ne sont ni utilisées pour la publicité, ni vendues, ni partagées pour établir des profils.</p>
@@ -168,7 +174,7 @@ window.LEGAL_I18N = {
     title: "保護者・ご家族の方へのお知らせ — Immuno Frontline",
     html: `
   <h1>保護者・ご家族の方へのお知らせ</h1>
-  <p class="meta">Immuno Frontline · 最終更新日：2026年11月23日</p>
+  <p class="meta">Immuno Frontline · 最終更新日：2026年11月26日</p>
 
   <p>Immuno Frontline は免疫のしくみを学べる教育ゲームであり、お子様や未成年の方もプレイすることを想定しています。このページでは、保護者の方や教育関係者の方に向けて、お子様が安心して遊べるよう本ゲームをどのように設計しているかを分かりやすく説明します。詳細は<a href="index.html">プライバシーポリシー</a>をご覧ください。</p>
 
@@ -187,6 +193,8 @@ window.LEGAL_I18N = {
   <h2>1. 年齢確認画面</h2>
   <p>本ゲームを初めて起動すると、生年を尋ねる画面が表示されます（「回答しない」も選べます）。特定の回答を誘導することはなく、未成年者が後から年齢を変更できないよう、設定画面からは変更できません。「回答しない」を選んだ場合は未成年者として扱われます。この回答は広告の種類と利用可能なサービスを判定するためだけに使われ、他の目的には一切使用しません。</p>
   <p>初期設定で誤った生年を入力してしまった場合は、当社までご連絡いただくか（第7項）、<strong>設定 → プライバシーと法的情報 → アカウントとデータを削除</strong>（<a href="delete-account.html">削除ページ</a>を参照）をご利用ください。ゲームが最初からリセットされ、再度生年を入力できます（Android の自動バックアップが有効な場合は、Android の設定からゲームのデータを消去することもできます）。</p>
+
+  <p>Android では、本ゲームは <strong>Google Play の年齢シグナル</strong>も読み取ります(2027年1月からカリフォルニア州とブラジルで義務化、米国の他の州でも適用)。Google Play が利用者を未成年者と示す場合、またはファミリーリンクで管理されたアカウントの場合、生まれ年の回答にかかわらず本ゲームは未成年者として扱います。管理されたアカウントの購入は Google Play で保護者の承認を待ちます。本ゲームは「購入は保留中」と表示し、承認された場合のみ提供します。シグナルは端末内にとどまり、他の目的には使用されません。</p>
 
   <h2>2. 未成年者について保存されるデータ</h2>
   <p>ゲームの動作に必要な最小限の情報のみを保存します：匿名識別子と進行データ（ステージ、星、強化、実績、設定、言語、生年）。これらは端末に保存され、インターネット接続時は機種変更時のデータ保護のためゲームサーバー（Unity Gaming Services）にもバックアップされます。広告目的での利用、販売、プロファイリングのための共有は行いません。</p>
@@ -223,7 +231,7 @@ window.LEGAL_I18N = {
     title: "가족 및 보호자 안내 — Immuno Frontline",
     html: `
   <h1>가족 및 보호자 안내</h1>
-  <p class="meta">Immuno Frontline · 최종 업데이트: 2026년 11월 23일</p>
+  <p class="meta">Immuno Frontline · 최종 업데이트: 2026년 11월 26일</p>
 
   <p>Immuno Frontline은 면역 체계를 다루는 교육용 게임으로, 어린이와 청소년도 플레이한다는 점을 잘 알고 있습니다. 이 페이지는 부모님, 보호자 및 교사분들께 아이들이 안전하게 이용할 수 있도록 게임을 어떻게 설계했는지 알기 쉽게 설명합니다. 자세한 내용은 <a href="index.html">개인정보 처리방침</a>에서 확인하실 수 있습니다.</p>
 
@@ -242,6 +250,8 @@ window.LEGAL_I18N = {
   <h2>1. 연령 확인 화면</h2>
   <p>게임을 처음 실행하면 출생 연도를 묻는 화면이 표시되며 "답변하지 않음" 옵션도 제공됩니다. 특정 답변을 유도하지 않으며, 미성년자가 나중에 성인으로 바꾸지 못하도록 설정에서는 변경할 수 없습니다. "답변하지 않음"을 선택한 경우에도 미성년자와 동일하게 보호됩니다. 이 정보는 광고 유형과 이용 가능한 서비스를 결정하는 데에만 사용되며 다른 용도로는 쓰이지 않습니다.</p>
   <p>초기 설정에서 출생 연도를 잘못 입력한 경우, 당사에 이메일로 문의하시거나(7항) <strong>설정 → 개인정보 및 법적 고지 → 내 계정 및 데이터 삭제</strong>(<a href="delete-account.html">삭제 안내 페이지</a> 참조)를 이용해 주세요. 게임이 처음 상태로 초기화되고 출생 연도를 다시 묻게 됩니다(Android 자동 백업이 켜져 있다면 Android 설정에서 게임 데이터도 함께 삭제할 수 있습니다).</p>
+
+  <p>Android에서 게임은 <strong>Google Play 연령 신호</strong>도 읽습니다(2027년 1월부터 캘리포니아와 브라질에서 의무화되며, 미국의 다른 주에도 적용). Google Play가 사용자를 미성년자로 표시하거나 Family Link로 관리되는 계정이면, 출생 연도와 관계없이 게임은 미성년자로 대우합니다. 관리되는 계정의 구매는 Google Play에서 보호자의 승인을 기다리며, 게임은 "구매 대기 중"이라고 알리고 승인된 경우에만 지급합니다. 신호는 휴대전화에만 남고 다른 용도로 사용되지 않습니다.</p>
 
   <h2>2. 미성년자에 대해 저장되는 데이터</h2>
   <p>게임 작동에 꼭 필요한 최소한의 데이터만 저장됩니다: 익명 식별자와 게임 진행 정보(스테이지, 별, 업그레이드, 업적, 설정, 언어, 출생 연도). 이 정보는 기기에 저장되며, 인터넷 연결 시 기기 변경에 대비해 게임 서버(Unity Gaming Services)에 백업됩니다. 광고에 사용되거나 판매되지 않으며 프로필 생성을 위해 공유되지 않습니다.</p>
@@ -278,7 +288,7 @@ window.LEGAL_I18N = {
     title: "Pemberitahuan untuk Keluarga — Immuno Frontline",
     html: `
   <h1>Pemberitahuan untuk Keluarga</h1>
-  <p class="meta">Immuno Frontline · Pembaruan terakhir: 23 November 2026</p>
+  <p class="meta">Immuno Frontline · Pembaruan terakhir: 26 November 2026</p>
 
   <p>Immuno Frontline adalah game edukasi tentang sistem kekebalan tubuh dan kami tahu anak-anak serta remaja memainkannya. Halaman ini menjelaskan dengan bahasa sederhana kepada orang tua, wali, dan guru tentang cara kami merancang Game agar aman bagi mereka. Penjelasan lengkap tersedia di <a href="index.html">Kebijakan Privasi</a>.</p>
 
@@ -297,6 +307,8 @@ window.LEGAL_I18N = {
   <h2>1. Layar usia</h2>
   <p>Saat pertama kali dibuka, Game menanyakan tahun lahir, dengan pilihan "Lebih memilih tidak menjawab". Layar ini tidak menyarankan jawaban tertentu dan tidak dapat diubah lagi melalui Pengaturan, agar anak di bawah umur tidak dapat mengubahnya menjadi dewasa. Jika seseorang memilih "Lebih memilih tidak menjawab", Game memperlakukannya sebagai anak di bawah umur. Jawaban ini hanya digunakan untuk menentukan jenis iklan dan layanan yang tersedia, dan tidak digunakan untuk hal lain.</p>
   <p>Jika tahun yang dimasukkan saat pengaturan awal keliru, hubungi kami (bagian 7) atau gunakan <strong>Pengaturan → Privasi &amp; Hukum → Hapus akun dan data saya</strong> (lihat <a href="delete-account.html">halaman penghapusan</a>): Game akan dimulai ulang dari awal dan menanyakan tahun lahir kembali (jika pencadangan otomatis Android aktif, Anda juga dapat menghapus data Game di pengaturan Android).</p>
+
+  <p>Di Android, Game juga membaca <strong>sinyal usia Google Play</strong> (wajib di California dan Brasil mulai Januari 2027, serta di negara bagian AS lainnya). Jika Google Play menunjukkan bahwa pengguna masih di bawah umur, atau memiliki akun yang diawasi dengan Family Link, Game memperlakukannya sebagai anak di bawah umur meskipun tahun lahirnya menunjukkan hal lain. Pembelian dari akun yang diawasi menunggu persetujuan orang tua di Google Play: Game menampilkan "Pembelian ditunda" dan hanya memberikannya jika disetujui. Sinyal tetap berada di ponsel dan tidak digunakan untuk hal lain.</p>
 
   <h2>2. Data apa yang disimpan dari anak di bawah umur</h2>
   <p>Hanya data yang diperlukan agar Game berfungsi: pengenal anonim dan progres permainan (level, bintang, peningkatan, pencapaian, pengaturan, bahasa, dan tahun lahir). Data disimpan di ponsel dan, saat terhubung ke internet, salinan cadangan disimpan di server Game (Unity Gaming Services) agar progres tidak hilang saat berganti ponsel. Data tidak digunakan untuk iklan, tidak dijual, dan tidak dibagikan untuk membuat profil.</p>

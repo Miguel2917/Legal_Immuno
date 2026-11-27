@@ -4,7 +4,7 @@ window.LEGAL_I18N.en = {
   title: "Privacy Policy — Immuno Frontline",
   html: `
     <h1>Immuno Frontline Privacy Policy</h1>
-    <p class="meta">Last updated: November 23, 2026</p>
+    <p class="meta">Last updated: November 26, 2026</p>
 
     <p>This policy explains what information <strong>Immuno Frontline</strong> (the "Game"), an educational tower defense game about the immune system for Android published by <strong>DonP</strong> ("we", "us"), uses. The Game is designed for all ages and may be played by minors, so we built it to collect as little data as possible.</p>
 
@@ -55,6 +55,8 @@ window.LEGAL_I18N.en = {
     </ul>
     <p>Anyone who chooses "Prefer not to say" is treated as a minor. Because we only ask for the year and not the day or month, anyone turning 18 during the current calendar year continues to be treated as a minor until the following year as a precaution. The birth year is included in your progress backup (section 5) so the same protections apply if you switch phones.</p>
 
+    <p>In addition, on Android the Game checks the <strong>Google Play age signal</strong> (Play Age Signals API), which Google Play must share in some regions (for example California, Texas, Utah, Louisiana, and Brazil); elsewhere, only if you agree in Google's own window. If the signal says you are under 18, or Google Play asks you to confirm your age, the Game treats you as a minor even if your birth year says otherwise; the signal never makes a minor be treated as an adult. The signal (only an age range) is stored only on your phone: it is not sent to our server or included in your progress backup, and it is not used for advertising, profiling, or analytics.</p>
+
     <h2>5. Data sent to the Game server</h2>
     <p>When online, the Game uses <strong>Unity Gaming Services</strong> (by Unity Technologies) as its server. When you open the Game, an <strong>anonymous account</strong> is created: a random player identifier not linked to your name or email. The following is stored with it:</p>
     <div class="table-wrap">
@@ -83,9 +85,15 @@ window.LEGAL_I18N.en = {
           <td>Only if you create a recovery code: a randomly generated username and password</td>
           <td>Allow signing in to your anonymous account from another phone (section 5.1).</td>
         </tr>
+        <tr>
+          <td>Integrity verdict for the ranking submission (accepted or rejected), without the certificate</td>
+          <td>Prevent scores from modified copies of the Game or tampered phones from being published.</td>
+        </tr>
       </table>
     </div>
     <p>As with any internet connection, Unity also receives technical connection data (such as IP address and device model/OS) to provide and protect the service. We do not use the server to show ads or build profiles. More information: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity Privacy Policy</a>.</p>
+
+    <p><strong>Google Play integrity check (Play Integrity).</strong> Only when you submit an Infinite mode score to the ranking, the Game asks <strong>Play Integrity</strong>, a security service of Google Play, for a certificate confirming that the app is the original version downloaded from Google Play and that the phone has not been tampered with. That certificate is signed and tied to a summary of that submission (the run identifier, waves, seconds and your anonymous player identifier), so it cannot be used for another submission. Google processes the certificate. Our server only receives the verdict from Google and does not store it. If it rejects a score, it keeps an error record with the reason and your anonymous player identifier, which is automatically deleted after 7 days. If it accepts the score, the score enters the ranking. The certificate itself is not stored. Play Integrity is not advertising and is not used to build profiles, it is not used at other moments of the Game and, like other security features of Google Play, it applies the same way at any age.</p>
 
     <h3 id="codigo">5.1 Recovery code (optional)</h3>
     <p>The key to your anonymous account is stored only on your phone. To avoid losing your game if you switch phones, in <strong>Settings → Backup</strong> you can create a recovery code in the format <code>XXXX-XXXX-XXXX-XXXX</code>. Here is how it works:</p>
@@ -135,6 +143,7 @@ window.LEGAL_I18N.en = {
       <li><strong>Android automatic backup:</strong> kept by Google according to your phone and Google account backup settings.</li>
       <li><strong>Weekly leaderboard:</strong> resets every Monday at 00:00 UTC and the finished week's scores are discarded; we do not store past weekly standings. Deleting your account removes your scores from both the current weekly and all-time leaderboards.</li>
       <li><strong>All-time leaderboard:</strong> kept for as long as your account exists.</li>
+      <li><strong>Server error records:</strong> when the server rejects a score, the record (with the reason and your anonymous player identifier) is automatically deleted after 7 days.</li>
       <li><strong>Google and Unity:</strong> retain technical, advertising, and purchase data for the periods set out in their own policies and as required by law.</li>
     </ul>
 
@@ -192,7 +201,7 @@ window.LEGAL_I18N.pt = {
   title: "Política de Privacidade — Immuno Frontline",
   html: `
     <h1>Política de Privacidade de Immuno Frontline</h1>
-    <p class="meta">Última atualização: 23 de novembro de 2026</p>
+    <p class="meta">Última atualização: 26 de novembro de 2026</p>
 
     <p>Esta política explica quais informações o <strong>Immuno Frontline</strong> (o "Jogo"), um jogo educativo de defesa de torres sobre o sistema imunológico para Android, publicado por <strong>DonP</strong> (doravante, "nós"), utiliza. O Jogo foi pensado para todas as idades e pode ser usado por menores, por isso o projetamos para coletar o mínimo possível.</p>
 
@@ -243,6 +252,8 @@ window.LEGAL_I18N.pt = {
     </ul>
     <p>Quem escolhe "Prefiro não dizer" recebe o mesmo tratamento que um menor. Como pedimos apenas o ano e não o dia nem o mês, quem completa 18 anos no ano em curso continua sendo tratado como menor até o ano seguinte, por precaução. O ano de nascimento acompanha a cópia do seu progresso (seção 5) para que o mesmo cuidado seja mantido se você trocar de telefone.</p>
 
+    <p>Além disso, no Android o Jogo consulta o <strong>sinal de idade do Google Play</strong> (API Play Age Signals), que em algumas regiões (por exemplo Califórnia, Texas, Utah, Louisiana e Brasil) o Google Play compartilha de forma obrigatória; nas demais, só se você aceitar na janela do próprio Google. Se o sinal indicar que você tem menos de 18 anos, ou se o Google Play pedir para confirmar sua idade, o Jogo trata você como menor mesmo que o ano indique outra coisa; o sinal nunca faz um menor receber tratamento de adulto. O sinal (apenas uma faixa de idade) fica salvo somente no seu telefone: não é enviado ao nosso servidor nem vai na cópia do seu progresso, e não é usado para publicidade, perfis nem análises.</p>
+
     <h2>5. Dados enviados ao servidor do Jogo</h2>
     <p>Quando há conexão, o Jogo usa o <strong>Unity Gaming Services</strong> (da Unity Technologies) como servidor. Ao abri-lo, é criada uma <strong>conta anônima</strong>: um identificador aleatório de jogador que não está vinculado ao seu nome nem ao seu e-mail. Com ele, salva-se o seguinte:</p>
     <div class="table-wrap">
@@ -271,9 +282,15 @@ window.LEGAL_I18N.pt = {
           <td>Somente se você criar um código de recuperação: um usuário e uma senha gerados aleatoriamente</td>
           <td>Permitir entrar na sua conta anônima a partir de outro telefone (seção 5.1).</td>
         </tr>
+        <tr>
+          <td>Veredicto de integridade do envio ao ranking (aceito ou rejeitado), sem o certificado</td>
+          <td>Impedir a publicação de pontuações de cópias modificadas do Jogo ou de celulares adulterados.</td>
+        </tr>
       </table>
     </div>
     <p>Como em qualquer conexão à internet, a Unity também recebe dados técnicos da conexão (como endereço IP, modelo e sistema do dispositivo) para prestar e proteger o serviço. Não usamos o servidor para exibir publicidade nem criar perfis. Mais informações: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">política de privacidade da Unity</a>.</p>
+
+    <p><strong>Verificação de integridade do Google Play (Play Integrity).</strong> Somente quando você envia uma pontuação do modo infinito para o ranking, o Jogo pede ao <strong>Play Integrity</strong>, um serviço de segurança do Google Play, um certificado que confirma que o aplicativo é o original baixado do Google Play e que o celular não foi adulterado. Esse certificado é assinado e vinculado a um resumo daquele envio (o identificador da partida, as ondas, os segundos e seu identificador anônimo de jogador), para que não sirva para outro envio. O Google processa o certificado. Nosso servidor recebe apenas o veredicto do Google e não o guarda. Se rejeitar uma pontuação, deixa um registro de erro com o motivo e seu identificador anônimo de jogador, que é apagado automaticamente após 7 dias. Se aceitar, a pontuação entra no ranking. O certificado não é guardado. O Play Integrity não é publicidade nem serve para criar perfis, não é usado em outros momentos do Jogo e, como outros recursos de segurança do Google Play, é aplicado da mesma forma em qualquer idade.</p>
 
     <h3 id="codigo">5.1 Código de recuperação (opcional)</h3>
     <p>A chave da sua conta anônima fica salva apenas no telefone. Para não perder a partida se trocar de aparelho, em <strong>Ajustes → Cópia de segurança</strong> você pode criar um código de recuperação no formato <code>XXXX-XXXX-XXXX-XXXX</code>. Veja como funciona:</p>
@@ -323,6 +340,7 @@ window.LEGAL_I18N.pt = {
       <li><strong>Backup automático do Android:</strong> guardado pelo Google conforme as configurações de backup do seu telefone e da sua conta Google.</li>
       <li><strong>Ranking semanal:</strong> reiniciado toda segunda-feira às 00:00 (UTC) e as pontuações da semana encerrada são descartadas: não guardamos classificações de semanas passadas. Ao excluir sua conta, suas pontuações são removidas do ranking da semana atual e do histórico.</li>
       <li><strong>Ranking histórico:</strong> mantido enquanto sua conta existir.</li>
+      <li><strong>Registros de erro do servidor:</strong> quando o servidor rejeita uma pontuação, o registro (com o motivo e seu identificador anônimo de jogador) é apagado automaticamente após 7 dias.</li>
       <li><strong>Google e Unity:</strong> conservam dados técnicos, de anúncios e de compras pelos prazos de suas próprias políticas e conforme exigido por lei.</li>
     </ul>
 
@@ -380,7 +398,7 @@ window.LEGAL_I18N.fr = {
   title: "Politique de confidentialité — Immuno Frontline",
   html: `
     <h1>Politique de confidentialité d'Immuno Frontline</h1>
-    <p class="meta">Dernière mise à jour : 23 novembre 2026</p>
+    <p class="meta">Dernière mise à jour : 26 novembre 2026</p>
 
     <p>Cette politique explique quelles informations utilise <strong>Immuno Frontline</strong> (le « Jeu »), un jeu éducatif de tower defense sur le système immunitaire pour Android publié par <strong>DonP</strong> (ci-après « nous »). Le Jeu est conçu pour tous les âges et peut être utilisé par des mineurs ; nous l'avons donc conçu pour recueillir le moins de données possible.</p>
 
@@ -431,6 +449,8 @@ window.LEGAL_I18N.fr = {
     </ul>
     <p>Toute personne qui choisit « Je préfère ne pas le dire » est traitée comme mineure. Comme nous ne demandons que l'année et non le jour ni le mois, une personne qui atteint 18 ans au cours de l'année civile reste traitée comme mineure jusqu'à l'année suivante, par précaution. L'année de naissance est incluse dans la copie de votre progression (section 5) afin que la même protection s'applique si vous changez de téléphone.</p>
 
+    <p>De plus, sur Android, le Jeu consulte le <strong>signal d'âge de Google Play</strong> (API Play Age Signals), que Google Play partage obligatoirement dans certaines régions (par exemple la Californie, le Texas, l'Utah, la Louisiane et le Brésil) ; ailleurs, seulement si vous l'acceptez dans la fenêtre de Google. Si le signal indique que vous avez moins de 18 ans, ou si Google Play demande de confirmer votre âge, le Jeu vous traite comme un mineur même si l'année indique autre chose ; le signal ne fait jamais traiter un mineur comme un adulte. Le signal (seulement une tranche d'âge) est conservé uniquement sur votre téléphone : il n'est pas envoyé à notre serveur ni inclus dans la sauvegarde de votre progression, et il n'est pas utilisé pour la publicité, le profilage ou l'analyse.</p>
+
     <h2>5. Données envoyées au serveur du Jeu</h2>
     <p>Avec une connexion, le Jeu utilise <strong>Unity Gaming Services</strong> (d'Unity Technologies) comme serveur. À l'ouverture, un <strong>compte anonyme</strong> est créé : un identifiant de joueur aléatoire qui n'est lié ni à votre nom ni à votre courriel. Les éléments suivants y sont associés :</p>
     <div class="table-wrap">
@@ -459,9 +479,15 @@ window.LEGAL_I18N.fr = {
           <td>Uniquement si vous créez un code de récupération : un identifiant et un mot de passe générés au hasard</td>
           <td>Permettre de vous connecter à votre compte anonyme depuis un autre téléphone (section 5.1).</td>
         </tr>
+        <tr>
+          <td>Verdict d'intégrité de l'envoi au classement (accepté ou refusé), sans le certificat</td>
+          <td>Empêcher la publication de scores provenant de copies modifiées du Jeu ou de téléphones altérés.</td>
+        </tr>
       </table>
     </div>
     <p>Comme lors de toute connexion Internet, Unity reçoit également des données techniques de connexion (telles que l'adresse IP, le modèle et le système de l'appareil) afin de fournir et sécuriser le service. Nous n'utilisons pas le serveur pour la publicité ni pour créer des profils. Plus d'informations : <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">politique de confidentialité d'Unity</a>.</p>
+
+    <p><strong>Vérification d'intégrité de Google Play (Play Integrity).</strong> Uniquement lorsque vous envoyez un score du mode infini au classement, le Jeu demande à <strong>Play Integrity</strong>, un service de sécurité de Google Play, un certificat confirmant que l'application est l'originale téléchargée depuis Google Play et que le téléphone n'a pas été altéré. Ce certificat est signé et lié à un résumé de cet envoi (l'identifiant de la partie, les vagues, les secondes et votre identifiant anonyme de joueur), afin qu'il ne serve pas pour un autre envoi. Google traite le certificat. Notre serveur reçoit seulement le verdict de Google et ne le conserve pas. S'il refuse un score, il garde un journal d'erreur avec le motif et votre identifiant anonyme de joueur, supprimé automatiquement après 7 jours. S'il accepte le score, celui-ci entre dans le classement. Le certificat n'est pas conservé. Play Integrity n'est pas de la publicité et ne sert pas à créer des profils, n'est pas utilisé à d'autres moments du Jeu et, comme d'autres fonctions de sécurité de Google Play, s'applique de la même manière quel que soit l'âge.</p>
 
     <h3 id="codigo">5.1 Code de récupération (facultatif)</h3>
     <p>La clé de votre compte anonyme n'est enregistrée que sur votre téléphone. Pour ne pas perdre votre partie en changeant de téléphone, dans <strong>Paramètres → Sauvegarde</strong> vous pouvez créer un code de récupération au format <code>XXXX-XXXX-XXXX-XXXX</code>. Voici son fonctionnement :</p>
@@ -511,6 +537,7 @@ window.LEGAL_I18N.fr = {
       <li><strong>Sauvegarde automatique Android :</strong> conservée par Google selon les paramètres de sauvegarde de votre téléphone et de votre compte Google.</li>
       <li><strong>Classement hebdomadaire :</strong> réinitialisé chaque lundi à 00h00 (UTC) et les scores de la semaine écoulée sont écartés ; nous ne conservons pas les classements des semaines passées. La suppression de votre compte retire vos scores du classement hebdomadaire en cours et du classement historique.</li>
       <li><strong>Classement historique :</strong> conservé tant que votre compte existe.</li>
+      <li><strong>Journaux d'erreurs du serveur :</strong> lorsque le serveur rejette un score, le journal (avec le motif et votre identifiant anonyme de joueur) est automatiquement supprimé après 7 jours.</li>
       <li><strong>Google et Unity :</strong> conservent les données techniques, publicitaires et d'achat pendant les durées prévues par leurs propres politiques et par la loi.</li>
     </ul>
 
@@ -568,7 +595,7 @@ window.LEGAL_I18N.ja = {
   title: "プライバシーポリシー — Immuno Frontline",
   html: `
     <h1>Immuno Frontline プライバシーポリシー</h1>
-    <p class="meta">最終更新日：2026年11月23日</p>
+    <p class="meta">最終更新日：2026年11月26日</p>
 
     <p>本ポリシーは、<strong>DonP</strong>（以下「当社」）が提供する Android 向け免疫系教育タワーディフェンスゲーム <strong>Immuno Frontline</strong>（以下「本ゲーム」）においてどのような情報を取り扱うかを説明します。本ゲームは全年齢向けであり未成年者もプレイする可能性があるため、収集する情報を必要最小限にとどめる設計としています。</p>
 
@@ -619,6 +646,8 @@ window.LEGAL_I18N.ja = {
     </ul>
     <p>「回答しない」を選択した方は未成年者と同じ扱いになります。月日ではなく年のみを確認するため、当年に18歳になる方も安全のため翌年までは未成年者として扱われます。生年は機種変更時も同じ保護が適用されるよう進行データのバックアップに含まれます（第5項）。</p>
 
+    <p>さらに、Android では本ゲームが <strong>Google Play の年齢シグナル</strong>(Play Age Signals API)を確認します。一部の地域(カリフォルニア州、テキサス州、ユタ州、ルイジアナ州、ブラジルなど)では Google Play による共有が義務となっており、その他の地域では Google の画面であなたが同意した場合のみ共有されます。シグナルが18歳未満を示す場合、または Google Play が年齢の確認を求めている場合、生まれ年の回答にかかわらず本ゲームはあなたを未成年者として扱います。シグナルによって未成年者が成人として扱われることはありません。シグナル(年齢の範囲のみ)はあなたの端末内にのみ保存され、当社のサーバーや進行状況のバックアップには送信されず、広告、プロファイリング、分析には使用されません。</p>
+
     <h2>5. ゲームサーバーへ送信されるデータ</h2>
     <p>インターネット接続時、本ゲームはサーバーとして Unity Technologies の <strong>Unity Gaming Services</strong> を利用します。起動時に氏名やメールアドレスと紐づかないランダムな識別子による<strong>匿名アカウント</strong>が作成され、以下が保存されます：</p>
     <div class="table-wrap">
@@ -647,9 +676,15 @@ window.LEGAL_I18N.ja = {
           <td>復元コードを作成した場合のみ：ランダム生成のユーザー名とパスワード</td>
           <td>別端末から匿名アカウントへサインインできるようにするため（第5.1項）。</td>
         </tr>
+        <tr>
+          <td>ランキング送信時の整合性判定（受理または拒否）。証明書は含まない</td>
+          <td>改変されたゲームのコピーや改ざんされた端末からのスコアの公開を防ぐため。</td>
+        </tr>
       </table>
     </div>
     <p>通常のインターネット通信と同様、Unity はサービス提供および保護のため接続に関する技術情報（IP アドレス、端末モデル・OS など）を受け取ります。当社はサーバーを広告配信やプロファイリングには使用しません。詳細：<a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity プライバシーポリシー</a>。</p>
+
+    <p><strong>Google Play の整合性チェック（Play Integrity）。</strong> 無限モードのスコアをランキングに送信するときだけ、ゲームは Google Play のセキュリティサービスである <strong>Play Integrity</strong> に、アプリが Google Play からダウンロードされた正規版であり、端末が改ざんされていないことを示す証明書を求めます。この証明書には署名が付き、その送信分の概要（プレイ ID、ウェーブ数、秒数、匿名のプレイヤー ID）に紐づけられるため、別の送信には使えません。証明書の処理は Google が行います。当社のサーバーは Google から判定結果のみを受け取り、保存はしません。スコアを拒否した場合は、理由と匿名のプレイヤー ID を含むエラー記録が残り、7 日後に自動的に削除されます。受理された場合はスコアがランキングに入ります。証明書は保存しません。Play Integrity は広告でもプロファイリングでもなく、ゲームの他の場面では使われず、Google Play の他のセキュリティ機能と同様、年齢にかかわらず同じように適用されます。</p>
 
     <h3 id="codigo">5.1 復元コード（任意）</h3>
     <p>匿名アカウントの鍵は端末内にのみ保存されます。機種変更時にデータを失わないよう、<strong>設定 → バックアップ</strong> から <code>XXXX-XXXX-XXXX-XXXX</code> 形式の復元コードを作成できます：</p>
@@ -699,6 +734,7 @@ window.LEGAL_I18N.ja = {
       <li><strong>Android 自動バックアップ：</strong>端末および Google アカウントのバックアップ設定に従い Google が保持します。</li>
       <li><strong>週間ランキング：</strong>毎週月曜 00:00（UTC）にリセットされ、前週のスコアは破棄されます（過去の週間順位は保存しません）。アカウントを削除すると、今週および歴代ランキングからスコアが削除されます。</li>
       <li><strong>歴代ランキング：</strong>アカウントが存在する間保持されます。</li>
+      <li><strong>サーバーのエラー記録：</strong>サーバーがスコアを拒否した場合、記録（理由と匿名のプレイヤー ID を含む）は 7 日後に自動的に削除されます。</li>
       <li><strong>Google および Unity：</strong>技術・広告・購入データを各社のポリシーおよび法令の定める期間保持します。</li>
     </ul>
 
@@ -756,7 +792,7 @@ window.LEGAL_I18N.ko = {
   title: "개인정보 처리방침 — Immuno Frontline",
   html: `
     <h1>Immuno Frontline 개인정보 처리방침</h1>
-    <p class="meta">최종 업데이트: 2026년 11월 23일</p>
+    <p class="meta">최종 업데이트: 2026년 11월 26일</p>
 
     <p>본 방침은 <strong>DonP</strong>(이하 "당사")가 제공하는 Android용 면역 체계 교육 타워 디펜스 게임 <strong>Immuno Frontline</strong>("게임")이 어떤 정보를 사용하는지 설명합니다. 이 게임은 모든 연령대를 위한 게임이며 미성년자도 플레이할 수 있으므로, 수집하는 정보를 최소화하도록 설계되었습니다.</p>
 
@@ -807,6 +843,8 @@ window.LEGAL_I18N.ko = {
     </ul>
     <p>"답변하지 않음"을 선택한 이용자는 미성년자와 동일하게 보호됩니다. 월·일이 아닌 연도만 묻기 때문에 올해 만 18세가 되는 이용자도 안전을 위해 다음 해까지 미성년자로 취급됩니다. 기기를 바꿔도 동일한 보호가 적용되도록 출생 연도는 진행 상황 백업에 포함됩니다(5항).</p>
 
+    <p>또한 Android에서 본 게임은 <strong>Google Play 연령 신호</strong>(Play Age Signals API)를 확인합니다. 일부 지역(예: 캘리포니아, 텍사스, 유타, 루이지애나, 브라질)에서는 Google Play가 의무적으로 공유하며, 그 밖의 지역에서는 Google의 창에서 동의한 경우에만 공유됩니다. 신호가 18세 미만이라고 표시하거나 Google Play가 나이 확인을 요청하면, 출생 연도와 관계없이 게임은 사용자를 미성년자로 대우합니다. 신호 때문에 미성년자가 성인으로 대우받는 일은 없습니다. 신호(연령 범위만)는 휴대전화에만 저장되며, 당사 서버나 진행 상황 백업으로 전송되지 않고, 광고, 프로파일링, 분석에 사용되지 않습니다.</p>
+
     <h2>5. 게임 서버로 전송되는 데이터</h2>
     <p>인터넷 연결 시 게임은 Unity Technologies의 <strong>Unity Gaming Services</strong>를 서버로 사용합니다. 실행 시 이름이나 이메일과 연결되지 않은 무작위 플레이어 식별자로 <strong>익명 계정</strong>이 생성되며 다음 정보가 저장됩니다:</p>
     <div class="table-wrap">
@@ -835,9 +873,15 @@ window.LEGAL_I18N.ko = {
           <td>복구 코드를 생성한 경우에만: 무작위로 생성된 사용자 이름과 비밀번호</td>
           <td>다른 기기에서 익명 계정에 로그인할 수 있도록 하기 위함(5.1항).</td>
         </tr>
+        <tr>
+          <td>랭킹 제출에 대한 무결성 판정(수락 또는 거부), 인증서 제외</td>
+          <td>변조된 게임 사본이나 조작된 기기의 점수가 공개되는 것을 막기 위해.</td>
+        </tr>
       </table>
     </div>
     <p>모든 인터넷 연결과 마찬가지로 Unity는 서비스 제공 및 보호를 위해 기술적 연결 데이터(IP 주소, 기기 모델 및 OS 등)를 수신합니다. 당사는 서버를 광고나 프로파일링에 사용하지 않습니다. 자세한 정보: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity 개인정보 처리방침</a>.</p>
+
+    <p><strong>Google Play 무결성 검사(Play Integrity).</strong> 무한 모드 점수를 랭킹에 제출할 때에만 게임은 Google Play의 보안 서비스인 <strong>Play Integrity</strong>에, 앱이 Google Play에서 내려받은 원본이고 기기가 변조되지 않았음을 확인하는 인증서를 요청합니다. 이 인증서는 서명되어 해당 제출분의 요약(플레이 식별자, 웨이브, 초, 익명 플레이어 식별자)에 연결되므로 다른 제출에는 쓸 수 없습니다. 인증서는 Google이 처리합니다. 당사 서버는 Google로부터 판정 결과만 받으며 이를 저장하지 않습니다. 점수를 거부하면 사유와 익명 플레이어 식별자가 포함된 오류 기록이 남고, 이 기록은 7일 후 자동으로 삭제됩니다. 점수를 수락하면 랭킹에 반영됩니다. 인증서는 저장하지 않습니다. Play Integrity는 광고나 프로필 작성에 쓰이지 않으며, 게임의 다른 시점에는 사용되지 않고, Google Play의 다른 보안 기능과 마찬가지로 나이와 관계없이 같은 방식으로 적용됩니다.</p>
 
     <h3 id="codigo">5.1 복구 코드 (선택 사항)</h3>
     <p>익명 계정의 키는 기기에만 저장됩니다. 기기를 바꿀 때 진행 상황을 잃지 않으려면 <strong>설정 → 백업</strong>에서 <code>XXXX-XXXX-XXXX-XXXX</code> 형식의 복구 코드를 만들 수 있습니다:</p>
@@ -887,6 +931,7 @@ window.LEGAL_I18N.ko = {
       <li><strong>Android 자동 백업:</strong> 기기 및 Google 계정 백업 설정에 따라 Google이 보관합니다.</li>
       <li><strong>주간 랭킹:</strong> 매주 월요일 00:00(UTC) 초기화되며 지난주 점수는 폐기됩니다(과거 주간 순위는 저장하지 않음). 계정을 삭제하면 이번 주 및 역대 랭킹에서 점수가 제거됩니다.</li>
       <li><strong>역대 랭킹:</strong> 계정이 존재하는 동안 유지됩니다.</li>
+      <li><strong>서버 오류 기록:</strong> 서버가 점수를 거부하면 기록(사유와 익명 플레이어 식별자 포함)은 7일 후 자동으로 삭제됩니다.</li>
       <li><strong>Google 및 Unity:</strong> 자체 정책 및 법률이 정한 기간 동안 기술·광고·결제 데이터를 보관합니다.</li>
     </ul>
 
@@ -944,7 +989,7 @@ window.LEGAL_I18N.id = {
   title: "Kebijakan Privasi — Immuno Frontline",
   html: `
     <h1>Kebijakan Privasi Immuno Frontline</h1>
-    <p class="meta">Pembaruan terakhir: 23 November 2026</p>
+    <p class="meta">Pembaruan terakhir: 26 November 2026</p>
 
     <p>Kebijakan ini menjelaskan informasi apa yang digunakan oleh <strong>Immuno Frontline</strong> ("Game"), sebuah game edukasi pertahanan menara tentang sistem kekebalan tubuh untuk Android yang diterbitkan oleh <strong>DonP</strong> (selanjutnya disebut "kami"). Game ini dirancang untuk semua umur dan dapat dimainkan oleh anak di bawah umur, sehingga kami merancangnya untuk mengumpulkan data seminimal mungkin.</p>
 
@@ -995,6 +1040,8 @@ window.LEGAL_I18N.id = {
     </ul>
     <p>Siapa pun yang memilih "Lebih memilih tidak menjawab" diperlakukan sama seperti anak di bawah umur. Karena kami hanya menanyakan tahun dan bukan hari atau bulan, siapa pun yang genap berusia 18 tahun pada tahun berjalan tetap diperlakukan sebagai anak di bawah umur hingga tahun berikutnya sebagai langkah kehati-hatian. Tahun lahir ikut tersimpan dalam salinan progres Anda (bagian 5) agar perlindungan yang sama tetap berlaku saat berganti ponsel.</p>
 
+    <p>Selain itu, di Android Game memeriksa <strong>sinyal usia Google Play</strong> (API Play Age Signals), yang wajib dibagikan Google Play di beberapa wilayah (misalnya California, Texas, Utah, Louisiana, dan Brasil); di wilayah lain, hanya jika kamu menyetujuinya di jendela Google sendiri. Jika sinyal menunjukkan kamu berusia di bawah 18 tahun, atau Google Play meminta konfirmasi usiamu, Game memperlakukanmu sebagai anak di bawah umur meskipun tahun lahirmu menunjukkan hal lain; sinyal tidak pernah membuat anak di bawah umur diperlakukan sebagai orang dewasa. Sinyal (hanya rentang usia) disimpan hanya di ponselmu: tidak dikirim ke server kami atau disertakan dalam cadangan progresmu, dan tidak digunakan untuk iklan, pembuatan profil, atau analitik.</p>
+
     <h2>5. Data yang dikirim ke server Game</h2>
     <p>Saat terhubung ke internet, Game menggunakan <strong>Unity Gaming Services</strong> (milik Unity Technologies) sebagai server. Saat dibuka, dibuat <strong>akun anonim</strong>: pengenal pemain acak yang tidak terkait dengan nama maupun email Anda. Data berikut disimpan bersamanya:</p>
     <div class="table-wrap">
@@ -1023,9 +1070,15 @@ window.LEGAL_I18N.id = {
           <td>Hanya jika Anda membuat kode pemulihan: nama pengguna dan kata sandi acak</td>
           <td>Memungkinkan masuk ke akun anonim Anda dari ponsel lain (bagian 5.1).</td>
         </tr>
+        <tr>
+          <td>Putusan integritas untuk pengiriman ke peringkat (diterima atau ditolak), tanpa sertifikat</td>
+          <td>Mencegah skor dari salinan Game yang dimodifikasi atau ponsel yang dimanipulasi dipublikasikan.</td>
+        </tr>
       </table>
     </div>
     <p>Sebagaimana koneksi internet lainnya, Unity juga menerima data teknis koneksi (seperti alamat IP, model perangkat, dan sistem operasi) untuk menyediakan serta melindungi layanan. Kami tidak menggunakan server untuk menayangkan iklan atau membuat profil. Informasi lebih lanjut: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">kebijakan privasi Unity</a>.</p>
+
+    <p><strong>Pemeriksaan integritas Google Play (Play Integrity).</strong> Hanya saat Anda mengirim skor mode tak terbatas ke peringkat, Game meminta <strong>Play Integrity</strong>, layanan keamanan Google Play, sebuah sertifikat yang memastikan aplikasi adalah versi asli yang diunduh dari Google Play dan ponsel tidak dimanipulasi. Sertifikat itu ditandatangani dan dikaitkan dengan ringkasan pengiriman tersebut (ID permainan, gelombang, detik, dan ID pemain anonim Anda) agar tidak bisa dipakai untuk pengiriman lain. Google memproses sertifikat itu. Server kami hanya menerima putusan dari Google dan tidak menyimpannya. Jika menolak skor, server menyimpan catatan kesalahan dengan alasan dan pengenal pemain anonim Anda, yang dihapus otomatis setelah 7 hari. Jika menerima skor, skor masuk ke papan peringkat. Sertifikatnya tidak disimpan. Play Integrity bukan iklan dan tidak dipakai untuk membuat profil, tidak digunakan pada saat lain dalam Game, dan, seperti fitur keamanan Google Play lainnya, berlaku sama untuk pemain dari usia berapa pun.</p>
 
     <h3 id="codigo">5.1 Kode pemulihan (opsional)</h3>
     <p>Kunci akun anonim Anda hanya disimpan di ponsel. Agar tidak kehilangan permainan saat berganti ponsel, di <strong>Pengaturan → Cadangan</strong> Anda dapat membuat kode pemulihan berbentuk <code>XXXX-XXXX-XXXX-XXXX</code>. Cara kerjanya:</p>
@@ -1075,6 +1128,7 @@ window.LEGAL_I18N.id = {
       <li><strong>Cadangan otomatis Android:</strong> disimpan oleh Google sesuai pengaturan cadangan ponsel dan akun Google Anda.</li>
       <li><strong>Papan peringkat mingguan:</strong> direset setiap Senin pukul 00:00 (UTC) dan skor minggu yang berakhir dibuang: kami tidak menyimpan peringkat minggu-minggu sebelumnya. Menghapus akun akan menghapus skor Anda dari papan peringkat minggu berjalan dan sepanjang masa.</li>
       <li><strong>Papan peringkat sepanjang masa:</strong> disimpan selama akun Anda ada.</li>
+      <li><strong>Catatan kesalahan server:</strong> saat server menolak skor, catatan (dengan alasan dan pengenal pemain anonim Anda) dihapus otomatis setelah 7 hari.</li>
       <li><strong>Google dan Unity:</strong> menyimpan data teknis, iklan, dan pembelian selama jangka waktu yang ditetapkan kebijakan mereka dan peraturan perundang-undangan.</li>
     </ul>
 
