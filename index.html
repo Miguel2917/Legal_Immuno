@@ -13,7 +13,7 @@
     <nav id="lang-bar" class="lang-bar" aria-label="Idioma"></nav>
     <div id="doc-content">
     <h1>Política de Privacidad de Immuno Frontline</h1>
-    <p class="meta">Última actualización: 23 de noviembre de 2026</p>
+    <p class="meta">Última actualización: 26 de noviembre de 2026</p>
 
     <p>Esta política explica qué información utiliza <strong>Immuno Frontline</strong> (el "Juego"), un juego educativo
       de defensa de torres sobre el sistema inmunitario para Android, publicado por <strong>DonP</strong> (en adelante,
@@ -100,6 +100,8 @@
       El año de nacimiento viaja con la copia de tu progreso (sección 5) para que el trato sea el mismo si cambias de
       teléfono.</p>
 
+    <p>Además, en Android el Juego consulta la <strong>señal de edad de Google Play</strong> (API Play Age Signals), que en algunas regiones (por ejemplo California, Texas, Utah, Luisiana y Brasil) Google Play comparte de forma obligatoria; en el resto, solo si tú lo aceptas en la ventana de Google. Si la señal indica que eres menor de 18 años, o Google Play pide confirmar tu edad, el Juego te trata como menor aunque el año indique otra cosa; la señal nunca hace que un menor reciba trato de adulto. La señal (solo un rango de edad) se guarda únicamente en tu teléfono: no se envía a nuestro servidor ni viaja con la copia de tu progreso, y no se usa para publicidad, perfiles ni analítica.</p>
+
     <h2>5. Datos que se envían al servidor del Juego</h2>
     <p>Cuando hay conexión, el Juego usa <strong>Unity Gaming Services</strong> (de Unity Technologies) como servidor.
       Al abrirlo se crea una <strong>cuenta anónima</strong>: un identificador aleatorio de jugador que no está ligado a
@@ -131,12 +133,18 @@
           <td>Solo si creas un código de recuperación: un nombre de usuario y una contraseña generados al azar</td>
           <td>Poder entrar en tu cuenta anónima desde otro teléfono (sección 5.1).</td>
         </tr>
+        <tr>
+          <td>Veredicto de integridad del envío al ranking (aceptado o rechazado), sin el certificado</td>
+          <td>Impedir que se publiquen puntuaciones de copias modificadas del Juego o de teléfonos manipulados.</td>
+        </tr>
       </table>
     </div>
     <p>Como en cualquier conexión a internet, Unity recibe además datos técnicos de la conexión (como la dirección IP y
       el modelo y sistema del dispositivo) para prestar el servicio y protegerlo. No usamos el servidor para mostrar
       publicidad ni para crear perfiles. Más información: <a href="https://unity.com/legal/privacy-policy"
         target="_blank" rel="noopener">política de privacidad de Unity</a>.</p>
+
+    <p><strong>Verificación de integridad de Google Play (Play Integrity).</strong> Solo cuando envías una puntuación del modo infinito al ranking, el Juego pide a <strong>Play Integrity</strong>, un servicio de seguridad de Google Play, un certificado que confirma que la app es la original descargada de Google Play y que el teléfono no ha sido manipulado. Ese certificado va firmado y atado a un resumen de ese envío (el identificador de la partida, las oleadas, los segundos y tu identificador anónimo de jugador), para que no sirva para otro envío. Google procesa el certificado. Nuestro servidor solo recibe de Google el veredicto y no lo guarda. Si rechaza una puntuación, deja un registro de error con el motivo y tu identificador anónimo de jugador, que se borra automáticamente a los 7 días. Si la acepta, la puntuación entra en el ranking. El certificado no se guarda. Play Integrity no es publicidad ni sirve para crear perfiles, no se usa en otros momentos del Juego y, como otras funciones de seguridad de Google Play, se aplica igual a cualquier edad.</p>
 
     <h3 id="codigo">5.1 Código de recuperación (opcional)</h3>
     <p>La llave de tu cuenta anónima se guarda solo en el teléfono. Para no perder la partida si cambias de teléfono,
@@ -239,6 +247,8 @@
         semana terminada se descartan: no guardamos las clasificaciones de semanas pasadas. Al borrar tu cuenta se quitan
         tus puntuaciones del ranking de la semana en curso y del histórico.</li>
       <li><strong>Ranking histórico:</strong> se mantiene mientras exista tu cuenta.</li>
+      <li><strong>Registros de errores del servidor:</strong> cuando el servidor rechaza una puntuación, el registro (con el
+        motivo y tu identificador anónimo de jugador) se borra automáticamente a los 7 días.</li>
       <li><strong>Google y Unity:</strong> conservan los datos técnicos, de anuncios y de compras durante los plazos de
         sus propias políticas y los que exija la ley.</li>
     </ul>
